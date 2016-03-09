@@ -1,8 +1,12 @@
 body {
   background-color:#0F70B7;
   margin: none;
+  padding-left: 0px;
 }
-
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: #FFFFFF;
+}
 .nav a {
   color: #FFFFFF;
   font-size: 12px;
@@ -15,16 +19,17 @@ body {
 .nav li {
   display: inline;
 }
-
-.navbar {
+.navbar-default {
   padding-top:30px;
   padding-bottom: 20px;
   background-color: #15609C;
+  border: none;
 }
 
 h1 {
   font-size: 26px;
   line-height:150%;
+  padding: 0;
 }
 
 h2 {
@@ -39,37 +44,44 @@ h3 {
 
 h4 {
   font-size: 16px;
-  line-height:300%;
+  line-height: 24px;
+  padding: 15px 0px;
 }
-
-.quem1 {
-  background-color: #0F70B7;
+.sessao-bunitinha {
   color:#ffffff;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
+}
+.quem1 {
+  background-color: #0F70B7;
+}
+.quem2 {
+  background-color: #12A19A;
+}
+.quem3 {
+  background-color: #DADADA;
 }
 
 .vc {
   background-color: #ffffff;
-  padding-top:50px;
-  padding-left:5%;
+  padding: 5%;
 }
 
 .dp {
   background-color: #DADADA;
+  padding:0px;
+}
+
+.lorem {
   padding-top:20px;
   padding-bottom:20px;
   padding-left:5%;
   padding-right:5%;
   padding-top:50px;
+  background-color: #DADADA;
 }
-
-.partidos {
-  background-color:#B3B2B2;
-}
-
-.deputados {
-  background-color:#cccccc;
+.tab-pane {
+  padding: 5%;
 }
 
 .btn {
