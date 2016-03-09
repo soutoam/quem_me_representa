@@ -59,6 +59,17 @@ h4 {
   background-color: #DADADA;
   padding-top:20px;
   padding-bottom:20px;
+  padding-left:5%;
+  padding-right:5%;
+  padding-top:50px;
+}
+
+.partidos {
+  background-color:#B3B2B2;
+}
+
+.deputados {
+  background-color:#cccccc;
 }
 
 .btn {
